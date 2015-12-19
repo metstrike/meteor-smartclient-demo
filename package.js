@@ -14,7 +14,7 @@ Package.onUse(function(api) {
   api.versionsFrom('1.2.1');
   api.use('ecmascript');
   api.use('templating', 'client');  
-  api.use('metstrike:meteor-smartclient', 'client');
+  api.use('metstrike:meteor-smartclient@10.1.0', 'client');
 
   api.addFiles('lib/client/templates/meteor-smartclient-demo.html', 'client');
   api.addFiles('lib/client/templates/meteor-smartclient-demo.js', 'client');
